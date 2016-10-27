@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModeloAgenda" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModeloAgendaContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Contactos" EntityType="ModeloAgenda.Contacto" />
+  </EntityContainer>
+  <EntityType Name="Contacto">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Nombre" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Direccion" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Telefono" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FechaNacimiento" Precision="0" />
+    <Property Type="String" Name="CorreoElectronico" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Foto" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Activo" />
+    <Property Type="DateTime" Name="FechaRegistro" Precision="3" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capa Aplicacion", "Capa Aplicacion", "{20720521-52DD-4CAF-A543-AE3774AAADAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capa Datos", "Capa Datos", "{B6CC8A29-46A1-4780-BD9D-4E18F7DAFE5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capa Negocio", "Capa Negocio", "{B279EBFF-462F-4543-88BA-D6D40233C823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSQLEntity.WPF", "WPFSQLEntity.WPF\WPFSQLEntity.WPF.csproj", "{B016C455-6DFB-46BA-AEA1-2D841418FB97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSQLEntity.AccesoDatos", "WPFSQLEntity.AccesoDatos\WPFSQLEntity.AccesoDatos.csproj", "{AEB9351F-7240-4DCC-9ACF-6480304FA9FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSQLEntity.LogicaNegocio", "WPFSQLEntity.LogicaNegocio\WPFSQLEntity.LogicaNegocio.csproj", "{D6A95158-9A53-4D3D-B478-BF8E895B1D65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B016C455-6DFB-46BA-AEA1-2D841418FB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B016C455-6DFB-46BA-AEA1-2D841418FB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B016C455-6DFB-46BA-AEA1-2D841418FB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B016C455-6DFB-46BA-AEA1-2D841418FB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB9351F-7240-4DCC-9ACF-6480304FA9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB9351F-7240-4DCC-9ACF-6480304FA9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB9351F-7240-4DCC-9ACF-6480304FA9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB9351F-7240-4DCC-9ACF-6480304FA9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A95158-9A53-4D3D-B478-BF8E895B1D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A95158-9A53-4D3D-B478-BF8E895B1D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A95158-9A53-4D3D-B478-BF8E895B1D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A95158-9A53-4D3D-B478-BF8E895B1D65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B016C455-6DFB-46BA-AEA1-2D841418FB97} = {20720521-52DD-4CAF-A543-AE3774AAADAD}
+		{AEB9351F-7240-4DCC-9ACF-6480304FA9FA} = {B6CC8A29-46A1-4780-BD9D-4E18F7DAFE5E}
+		{D6A95158-9A53-4D3D-B478-BF8E895B1D65} = {B279EBFF-462F-4543-88BA-D6D40233C823}
+	EndGlobalSection
+EndGlobal

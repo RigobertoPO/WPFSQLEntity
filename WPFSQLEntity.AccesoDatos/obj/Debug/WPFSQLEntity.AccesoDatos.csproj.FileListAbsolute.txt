@@ -1,0 +1,7 @@
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.AccesoDatos\bin\Debug\WPFSQLEntity.AccesoDatos.dll.config
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.AccesoDatos\bin\Debug\WPFSQLEntity.AccesoDatos.dll
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.AccesoDatos\bin\Debug\WPFSQLEntity.AccesoDatos.pdb
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.AccesoDatos\bin\Debug\EntityFramework.dll
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.AccesoDatos\bin\Debug\EntityFramework.xml
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.AccesoDatos\obj\Debug\WPFSQLEntity.AccesoDatos.dll
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.AccesoDatos\obj\Debug\WPFSQLEntity.AccesoDatos.pdb

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModeloAgenda.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModeloAgendaStoreContainer">
+    <EntitySet Name="Contactos" EntityType="ModeloAgenda.Store.Contactos" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Contactos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="200" />
+    <Property Name="Direccion" Type="varchar" MaxLength="200" />
+    <Property Name="Telefono" Type="varchar" MaxLength="15" />
+    <Property Name="FechaNacimiento" Type="date" />
+    <Property Name="CorreoElectronico" Type="varchar" MaxLength="100" />
+    <Property Name="Foto" Type="varchar" MaxLength="100" />
+    <Property Name="Activo" Type="bit" />
+    <Property Name="FechaRegistro" Type="datetime" />
+  </EntityType>
+</Schema>

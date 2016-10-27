@@ -1,0 +1,9 @@
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.LogicaNegocio\bin\Debug\WPFSQLEntity.LogicaNegocio.dll
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.LogicaNegocio\bin\Debug\WPFSQLEntity.LogicaNegocio.pdb
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.LogicaNegocio\bin\Debug\WPFSQLEntity.AccesoDatos.dll
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.LogicaNegocio\bin\Debug\WPFSQLEntity.AccesoDatos.pdb
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.LogicaNegocio\obj\Debug\WPFSQLEntity.LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.LogicaNegocio\obj\Debug\WPFSQLEntity.LogicaNegocio.dll
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.LogicaNegocio\obj\Debug\WPFSQLEntity.LogicaNegocio.pdb
