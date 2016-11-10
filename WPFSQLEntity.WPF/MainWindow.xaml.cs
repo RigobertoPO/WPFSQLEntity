@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFSQLEntity.AccesoDatos;
 
 namespace WPFSQLEntity.WPF
 {
@@ -23,6 +24,25 @@ namespace WPFSQLEntity.WPF
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ListadoContactos_Click(object sender, EventArgs e)
+        {
+            Contactos.ContactoForm _nuevoContacto = new Contactos.ContactoForm();
+            Contacto contacto = new Contacto();
+            contacto.Id = Guid.NewGuid();
+            _nuevoContacto.Entidad = contacto;
+            DetalleGrid.Children.Clear();
+            DetalleGrid.Children.Add(_nuevoContacto);
+            _nuevoContacto.Guardar += (se, ev) =>
+                {
+                    listadoContactos.MostrarContactos();
+                    DetalleGrid.Children.Clear();
+                };
+            _nuevoContacto .Cancelar+= (se, ev) =>
+                {                  
+                    DetalleGrid.Children.Clear();
+                };
         }
     }
 }

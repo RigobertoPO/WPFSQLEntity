@@ -8,9 +8,11 @@ C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de 
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\bin\Debug\WPFSQLEntity.LogicaNegocio.pdb
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\bin\Debug\EntityFramework.xml
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\WPFSQLEntity.WPF.csprojResolveAssemblyReference.cache
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\Contactos\ContactoLinea.baml
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\Contactos\ContactosUC.baml
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\Style.baml
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\App.baml
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\Contactos\ContactoLinea.g.cs
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\Contactos\ContactosUC.g.cs
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\MainWindow.g.cs
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\App.g.cs
@@ -23,5 +25,5 @@ C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de 
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\WPFSQLEntity.WPF.csproj.GenerateResource.Cache
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\WPFSQLEntity.WPF.exe
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\WPFSQLEntity.WPF.pdb
-C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\Contactos\ContactoLinea.baml
-C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\Contactos\ContactoLinea.g.cs
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\Contactos\ContactoForm.baml
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\Desarrollo de Sistemas de Informacion\WPFSQLEntity\WPFSQLEntity.WPF\obj\Debug\Contactos\ContactoForm.g.cs

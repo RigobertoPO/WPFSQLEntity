@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="WPFSQLEntity.WPF.Contactos.ContactoForm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="DATOS DEL CONTACTO" HorizontalAlignment="Center" />
+        <TextBlock Text="Nombre:" Grid.Row="1" />
+        <TextBlock Text="Direccion:" Grid.Row="3" />
+        <TextBlock Text="Teléfono:" Grid.Row="5" />
+        <TextBlock Text="Fecha de nacimiento:" Grid.Row="7" />
+        <TextBlock Text="Correo:" Grid.Row="9" />
+        <TextBlock Text="Estatus:" Grid.Row="11" />
+        <TextBlock Text="Foto:" Grid.Row="13" />
+        
+        <TextBox Name="NombreTextBox" Grid.Row="2" Margin="2"/>
+        <TextBox Name="DireccionTextBox" Grid.Row="4" Margin="2"/>
+        <TextBox Name="TelefonoTextBox" Grid.Row="6" Margin="2"/>
+        <DatePicker Name="FechaNacimientoDatePicker" Grid.Row="8" Margin="2"/>
+        <TextBox Name="CorreoTextBox" Grid.Row="10" Margin="2"/>
+        <CheckBox Name="ActivoCheckBox" Grid.Row="12" Content="Activo"/>
+        <StackPanel Grid.Row="15" Orientation="Horizontal">
+            <Button Name="AceptarButton" Height="20" Width="70" Margin="4" Content="Aceptar" Click="AceptarButton_Click_1"/>
+            <Button Name="CancelarButton" Height="20" Width="70" Margin="4" Content="Cancelar" Click="CancelarButton_Click_1"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

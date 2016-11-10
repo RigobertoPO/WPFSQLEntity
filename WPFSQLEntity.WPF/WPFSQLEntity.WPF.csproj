@@ -53,6 +53,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Contactos\ContactoForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Contactos\ContactoLinea.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -68,6 +72,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Contactos\ContactoForm.xaml.cs">
+      <DependentUpon>ContactoForm.xaml</DependentUpon>
     </Compile>
     <Compile Include="Contactos\ContactoLinea.xaml.cs">
       <DependentUpon>ContactoLinea.xaml</DependentUpon>
@@ -109,7 +116,9 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WPFSQLEntity.AccesoDatos\WPFSQLEntity.AccesoDatos.csproj">
@@ -120,6 +129,11 @@
       <Project>{d6a95158-9a53-4d3d-b478-bf8e895b1d65}</Project>
       <Name>WPFSQLEntity.LogicaNegocio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Editar.png" />
+    <Resource Include="Imagenes\Eliminar.png" />
+    <Resource Include="Imagenes\Nuevo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

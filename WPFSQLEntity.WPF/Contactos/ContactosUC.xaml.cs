@@ -26,6 +26,7 @@ namespace WPFSQLEntity.WPF.Contactos
             InitializeComponent();
         }
 
+        public event EventHandler NuevoContacto;
         private void UserControl_Loaded_1(object sender, RoutedEventArgs e)
         {
             MostrarContactos();
@@ -33,15 +34,23 @@ namespace WPFSQLEntity.WPF.Contactos
 
         }
 
-        private void MostrarContactos()
+        public void MostrarContactos()
         {
+            ContactosStackPanel.Children.Clear();
             ContactoMetodos _metodos = new ContactoMetodos();
             var listaContactos = _metodos.ObtenerContactos();
             foreach (var item in listaContactos)
             {
                 ContactoLinea _linea = new ContactoLinea();
+                _linea.Entidad = item;
                 ContactosStackPanel.Children.Add(_linea );
             }
+        }
+
+        private void NuevoButton_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
+        {
+            if (NuevoContacto != null)
+            { NuevoContacto(this, new EventArgs()); }
         }
     }
 }

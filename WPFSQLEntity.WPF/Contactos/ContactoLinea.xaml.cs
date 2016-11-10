@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFSQLEntity.AccesoDatos;
 
 namespace WPFSQLEntity.WPF.Contactos
 {
@@ -23,6 +24,30 @@ namespace WPFSQLEntity.WPF.Contactos
         public ContactoLinea()
         {
             InitializeComponent();
+        }
+        public Contacto Entidad
+        {
+            get
+            {
+                try
+                {
+                    return this.DataContext as Contacto;
+                }
+                catch (Exception ex)
+                {
+                    return null;
+                }
+            }
+            set
+            {
+                this.DataContext = value;
+                if (value.Nombre != "")
+                {
+                    NombreTextBlock.Text = value.Nombre;
+                    TelefonoTextBlock.Text = value.Telefono;
+
+                }
+            }
         }
     }
 }
