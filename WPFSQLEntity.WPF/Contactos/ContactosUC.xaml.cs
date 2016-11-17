@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFSQLEntity.AccesoDatos;
 using WPFSQLEntity.LogicaNegocio;
 
 namespace WPFSQLEntity.WPF.Contactos
@@ -25,13 +26,14 @@ namespace WPFSQLEntity.WPF.Contactos
         {
             InitializeComponent();
         }
-
+        public event SeleccionadoEventHandler Editar;
+        public event SeleccionadoEventHandler Seleccionado;
+        public delegate void SeleccionadoEventHandler(object sender, Contacto e);
         public event EventHandler NuevoContacto;
         private void UserControl_Loaded_1(object sender, RoutedEventArgs e)
         {
             MostrarContactos();
            
-
         }
 
         public void MostrarContactos()
@@ -44,6 +46,26 @@ namespace WPFSQLEntity.WPF.Contactos
                 ContactoLinea _linea = new ContactoLinea();
                 _linea.Entidad = item;
                 ContactosStackPanel.Children.Add(_linea );
+                _linea.Editar += (se, ev) =>
+                    {
+                        if (Editar != null)
+                        {
+                            Editar(this, ev);
+                        }
+                    };
+                _linea.Eliminar += (se, ev) =>
+                {
+                    _metodos.EliminarContacto(ev.Id);
+                    MostrarContactos();
+                };
+                _linea.Seleccionado += (se, ev) =>
+                {
+                    if (Seleccionado != null)
+                    {
+                        Seleccionado(this, ev);
+                    }
+                };
+                
             }
         }
 
@@ -51,6 +73,7 @@ namespace WPFSQLEntity.WPF.Contactos
         {
             if (NuevoContacto != null)
             { NuevoContacto(this, new EventArgs()); }
+
         }
     }
 }

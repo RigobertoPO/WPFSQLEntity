@@ -15,7 +15,7 @@
             <Border.Background>
                 <SolidColorBrush Color="{DynamicResource Fondocentral}"/>
             </Border.Background>
-            <Contactos:ContactosUC x:Name="listadoContactos" NuevoContacto="ListadoContactos_Click" />
+            <Contactos:ContactosUC x:Name="listadoContactos" NuevoContacto="ListadoContactos_Click" Seleccionado="listadoContactos_Seleccionado_1" Editar="listadoContactos_Editar_1" />
         </Border>
         <Grid Grid.Column="1">
             <Canvas Width="40" Height="600">

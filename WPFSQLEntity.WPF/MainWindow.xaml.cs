@@ -44,5 +44,27 @@ namespace WPFSQLEntity.WPF
                     DetalleGrid.Children.Clear();
                 };
         }
+
+        private void listadoContactos_Seleccionado_1(object sender, Contacto e)
+        {
+            
+        }
+
+        private void listadoContactos_Editar_1(object sender, Contacto e)
+        {
+            Contactos.ContactoForm _nuevoContacto = new Contactos.ContactoForm();
+            _nuevoContacto.Entidad = e;
+            DetalleGrid.Children.Clear();
+            DetalleGrid.Children.Add(_nuevoContacto);
+            _nuevoContacto.Guardar += (se, ev) =>
+            {
+                listadoContactos.MostrarContactos();
+                DetalleGrid.Children.Clear();
+            };
+            _nuevoContacto.Cancelar += (se, ev) =>
+            {
+                DetalleGrid.Children.Clear();
+            };
+        }
     }
 }

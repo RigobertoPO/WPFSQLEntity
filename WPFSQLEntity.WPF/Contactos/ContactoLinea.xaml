@@ -18,13 +18,13 @@
             </Rectangle.Effect>
         </Rectangle>
         <Rectangle Width="28" Height="80" Stretch="Fill" Fill="#FF26A6BC"/>
-        <StackPanel Grid.Column="1" Orientation="Vertical" Cursor="Hand"  >
+        <StackPanel Grid.Column="1" Orientation="Vertical" Cursor="Hand" MouseLeftButtonDown="StackPanel_MouseLeftButtonDown_1" >
             <TextBlock Name="NombreTextBlock" Text="nombre contacto" Margin="4" FontSize="16"/>
             <TextBlock Name="TelefonoTextBlock" Text="000" Margin="4" FontSize="14" Foreground="#FF7C3B3B" />
         </StackPanel>
         <StackPanel Grid.Column="2" Orientation="Horizontal" >
-            <Image Name="EditarImage" Width="36" Height="36" Margin="2" Source="/WPFSQLEntity.WPF;component/Imagenes/Editar.png" Cursor="Hand" />
-            <Image Name="EliminarImage" Width="36" Height="36" Margin="2" Source="/WPFSQLEntity.WPF;component/Imagenes/Eliminar.png" Cursor="Hand" />
+            <Image Name="EditarImage" Width="36" Height="36" Margin="2" Source="/WPFSQLEntity.WPF;component/Imagenes/Editar.png" Cursor="Hand" MouseLeftButtonDown="EditarImage_MouseLeftButtonDown_1"/>
+            <Image Name="EliminarImage" Width="36" Height="36" Margin="2" Source="/WPFSQLEntity.WPF;component/Imagenes/Eliminar.png" Cursor="Hand" MouseLeftButtonDown="EliminarImage_MouseLeftButtonDown_1"/>
         </StackPanel>
         </Grid> 
 

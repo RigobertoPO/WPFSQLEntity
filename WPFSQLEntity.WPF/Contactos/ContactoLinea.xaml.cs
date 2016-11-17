@@ -25,6 +25,10 @@ namespace WPFSQLEntity.WPF.Contactos
         {
             InitializeComponent();
         }
+        public event SeleccionadoEventHandler Eliminar;
+        public event SeleccionadoEventHandler Editar;
+        public event SeleccionadoEventHandler Seleccionado;
+        public delegate void SeleccionadoEventHandler(object sender, Contacto e);
         public Contacto Entidad
         {
             get
@@ -47,6 +51,30 @@ namespace WPFSQLEntity.WPF.Contactos
                     TelefonoTextBlock.Text = value.Telefono;
 
                 }
+            }
+        }
+
+        private void EditarImage_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
+        {
+            if (Editar != null)
+            {
+                Editar(this, Entidad);
+            }
+        }
+
+        private void EliminarImage_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
+        {
+            if (Eliminar != null)
+            {
+                Eliminar(this, Entidad);
+            }
+        }
+
+        private void StackPanel_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
+        {
+            if (Seleccionado != null)
+            {
+                Seleccionado(this, Entidad);
             }
         }
     }

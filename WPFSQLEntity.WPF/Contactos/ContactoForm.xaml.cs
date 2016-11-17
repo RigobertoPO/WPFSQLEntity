@@ -49,6 +49,9 @@ namespace WPFSQLEntity.WPF.Contactos
                    NombreTextBox.Text = value.Nombre;
                    DireccionTextBox.Text  = value.Direccion;
                    TelefonoTextBox.Text = value.Telefono;
+                   FechaNacimientoDatePicker.SelectedDate = value.FechaNacimiento;
+                   CorreoTextBox.Text = value.CorreoElectronico;
+                   ActivoCheckBox.IsChecked = value.Activo;
                 }
             }
         }
@@ -59,6 +62,7 @@ namespace WPFSQLEntity.WPF.Contactos
             Entidad.Direccion = DireccionTextBox.Text;
             Entidad.Telefono = TelefonoTextBox.Text;
             Entidad.FechaNacimiento = FechaNacimientoDatePicker.SelectedDate;
+            Entidad.CorreoElectronico = CorreoTextBox.Text;
             Entidad.Activo = ActivoCheckBox.IsChecked;
             ContactoMetodos _metodos = new ContactoMetodos();
             var resultado = _metodos.GuardarContacto(Entidad );
